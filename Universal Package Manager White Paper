@@ -1,1 +1,19 @@
+This document will essentially be the bible for the project explaining what and how everything will be executed.
+Hence develoupment for the Universal Package Manager aka U.P.M. will use this as referance material.
 
+The goal is to provide a fast, efficent, secure and reliable way for develoupers to deploy apps on one sandboxed environment. 
+Thus negating the need for developers to choose between supporting one OS very well or supporting many OSs poorly.
+We aim to execute this by having the develoupers of this platform use an immutable blockchain based repo system to store their code and have it pulled down localy 
+on to the user's computer which will then allow said to code to be compiled then then executed within a sandboxed environment.
+
+Phase 1: Successfully create a blockchain based repo storing code on an Etherium testnet (All NON-PROTOTYPE REPOS WILL BE ON THE MAINNET). 
+Then proceed to Succesfully pull down the code to be ran locally on my computer (PRIOR TO SANDBOX)
+Why?
+- Etherium has fairly high gass fees, this means that in order to write to the etherium network an induvidual must pay a fee. Thus encouraging develoupers to think prior to uploading their code
+preasuring them to make/upload higher quality code aswell as discouraging malicious players from uploading malicous code to the repos. 
+
+Phase 2: Creating a sandboxed environment to run said code from the repos, similar to flatpak applications in which the sandboxed environments will be self contained, wont mess around with root.
+The sandbox will initaly support linux & windows then will later support mac, etc.. hopefully the opensource nature of this project will encourage ports of this package manager to various different platforms.
+
+Phase 3: Creating an easy to use GUI to work in unison with the pre-existing terminal interface which will be used. This interface will allow people to add/remove repos aswell as download apps, this
+gui variant of U.P.M. will be dubbed the Universal App Store. 

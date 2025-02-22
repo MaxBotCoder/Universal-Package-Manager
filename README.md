@@ -13,4 +13,7 @@ old: v0.0.2-B: Initial creation of buyer's end purchasing system improvements.
 
 old: v0.0.2-C: Fixed smart contract issues within the buyer side purchasing system made it easyer to change sending address.
 
-NEW: v0.0.3: Changed purchasing system from .transfer to .call increasing maximum gass leg room, Created selling system to interact with purchasing system by reciving eth however currently only able to receive eth and not give anything back.
+old: v0.0.3: Changed purchasing system from .transfer to .call increasing maximum gass leg room, Created selling system to interact with purchasing system by reciving eth however currently only able to receive eth and not give anything back.
+
+NEW: v0.0.3-B: Made changing prices easier on the sellers end via new price variable and price determining constuctor, also added download counter which is updated when money is received.
+

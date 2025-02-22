@@ -1,7 +1,7 @@
-# Universal-Package-Manager 0.0.3-B Very Early Pre-Alpha ⚠
+# Universal-Package-Manager 0.0.3-C Very Early Pre-Alpha ⚠
 A universal package manager that will change the playingfeild for developers and companies when making software!
 
-Update log 0.0.3-B Very Early PRE-Alpha ⚠⚠
+Update log 0.0.3-C Very Early PRE-Alpha ⚠⚠
 
 old v0.0.0 :I have successfully made code that has the ability to upload data onto the block chain, now it is a matter of receiving it even when I figure that out I will still have many more kilometers to travel!
 
@@ -15,5 +15,8 @@ old: v0.0.2-C: Fixed smart contract issues within the buyer side purchasing syst
 
 old: v0.0.3: Changed purchasing system from .transfer to .call increasing maximum gass leg room, Created selling system to interact with purchasing system by reciving eth however currently only able to receive eth and not give anything back.
 
-NEW: v0.0.3-B: Made changing prices easier on the sellers end via new price variable and price determining constuctor, also added download counter which is updated when money is received.
+old: v0.0.3-B: Made changing prices easier on the sellers end via new price variable and price determining constuctor, also added download counter which is updated when money is received.
+
+NEW: v0.0.3-C: Changed how the seller's smart contract determines wheather or not it has been changed!
+
 

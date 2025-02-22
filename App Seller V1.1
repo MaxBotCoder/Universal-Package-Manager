@@ -1,16 +1,29 @@
 //SPDX-License-Identifier: MIT
 pragma solidity 0.8.9;
 
-//WARNING THIS CODE IS IN EARLY ALPHA 
-//MUST USE REMIX FOR NOW
-
 contract reciever{
+
+    uint public price;
+
+    constructor(uint _setprice){
+
+        price = _setprice;
+
+    }
+
+    uint public downloads;
 
     uint public amountrecievd;
 
     receive() external payable { 
 
       amountrecievd = msg.value;
+
+      if(msg.value >= price){
+
+          downloads ++;
+
+      }
 
     }
     

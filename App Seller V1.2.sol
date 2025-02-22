@@ -19,7 +19,7 @@ contract reciever{
 
       amountrecievd = msg.value;
 
-      if(msg.value == msg.value + price){
+      if(msg.value == msg.value + price){ //Detects if price has been updated
 
           downloads ++;
 

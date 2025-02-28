@@ -5,9 +5,15 @@ contract reciever{
 
     uint public price;
 
+    uint public value;
+
+    address public creator;
+
     constructor(uint _setprice){
 
         price = _setprice;
+
+        creator = msg.sender;
 
     }
 
@@ -15,16 +21,30 @@ contract reciever{
 
     uint public amountrecievd;
 
-    receive() external payable { 
+    receive() external payable {
 
-      amountrecievd = msg.value;
+      value = msg.value;
 
-      if(msg.value == msg.value + price){ //Detects if price has been updated
+      amountrecievd += msg.value;
+
+      if(value <= price){
 
           downloads ++;
 
       }
 
     }
-    
-}
+
+    function collectmoney () public {
+
+          if(msg.sender == creator) {
+
+          address payable to = payable(msg.sender);
+
+          to.transfer(value); 
+
+        }                                   
+
+    }
+
+} 

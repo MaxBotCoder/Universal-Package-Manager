@@ -1,7 +1,7 @@
-# Universal-Package-Manager v0.0.4 Very Early Pre-Alpha ⚠
+# Universal-Package-Manager v0.0.4-B Very Early Pre-Alpha ⚠
 A universal package manager that will change the playingfeild for developers and companies when making software!
 
-Update log v0.0.4 Very Early PRE-Alpha ⚠⚠
+Update log v0.0.4-B Very Early PRE-Alpha ⚠⚠
 
 old v0.0.0 :I have successfully made code that has the ability to upload data onto the block chain, now it is a matter of receiving it even when I figure that out I will still have many more kilometers to travel!
 
@@ -19,6 +19,10 @@ old: v0.0.3-B: Made changing prices easier on the sellers end via new price vari
 
 old: v0.0.3-C: Changed how the seller's smart contract determines wheather or not it has been changed!
 
-NEW: v0.0.4: Added money withdrawl to seller's end smart contract!
+old: v0.0.4: Added money withdrawl to seller's end smart contract!
+
+NEW: v0.0.4-B: Fixed downloads counter.
+
+
 
 
